@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#1c92d2, #f2fcfe);
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+}
+.fa-hand-holding-heart{
+    margin-top: 5px;
+    padding-right: 5px;
+    color: rgb(255, 192, 233);
+}
+h1 {
+    font-size: 10px;
+    font-family: 'Lucida Grande',sans-serif;
+    color:whitesmoke;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.nav .nav-item {
+    margin-left: 50px;
+    display: block;
+    top: 0;
+    left: 30px;
+    
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-family: 'Lucida Grande',sans-serif;
+}
+
+
+h2 {
+    color: rgba(255, 251, 251, 0.616);
+    font-family: 'Lucida Grande',sans-serif;
+    margin-top: 200px;
+}
+form {
+    margin-top: 10px;
+}
+.btn {
+    margin-left: 15px;
+}
+
+.fa-plane-departure {
+    font-size: 50px;
+    color: rgba(192, 192, 192, 0.44);
+    margin-top: 400px;
+    display: none;
+}
+.brdr {
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
