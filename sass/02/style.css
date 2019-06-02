@@ -1,0 +1,68 @@
+.nav {
+    padding-top: 15px;
+}
+.nav-item {
+    color: rgb(110, 106, 106);
+    padding: 10px 50px;
+}
+.nav-item:hover {
+    color: peru;
+}
+main {
+    background-color:whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+/* h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lucida Grande',sans-serif;
+} */
+
+.message_box {
+    padding: 50px;
+}
+.card {
+    text-align: center;
+    margin-left: 130px;
+}
+.card-img-top {
+    width: 50px;
+    height: 50px;
+    border-radius:  50%;
+    margin-top: 10px;
+}
+.likes {
+    float: left;
+    color: rgba(255, 0, 0, 0.732);
+    animation: likes 1s infinite;
+}
+@keyframes likes {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.speace {
+    margin-left: 20px;
+}
+
+h2 {
+    padding-left: 30px;
+    font-family: 'Marker Felt',sans-serif;
+    border-bottom: solid 1px silver;
+    margin-left: 30px;
+}
+.flt_sidebar {
+    padding:10px;
+    background-color: rgb(135, 177, 235);
+}
+.list-group {
+    margin-top: 20px;
+}
+.fa-plane {
+    margin-right: 5px;
+}

@@ -50,8 +50,10 @@ form {
 
 .fa-plane-departure {
     font-size: 50px;
-    color: rgba(192, 192, 192, 0.44);
-    margin-top: 400px;
+    color: whitesmoke;
+    /* color: rgba(192, 192, 192, 0.44); */
+    position: fixed;
+    bottom: 0;
     display: none;
 }
 .brdr {
