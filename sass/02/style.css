@@ -1,3 +1,4 @@
+/* navバー開始 */
 .nav {
     padding-top: 15px;
 }
@@ -8,17 +9,15 @@
 .nav-item:hover {
     color: peru;
 }
+/* navバーここまで */
+
+/* main開始 */
 main {
     background-color:whitesmoke;
     width: 100%;
     height: 100%;
     padding-bottom: 10px;
 }
-/* h1 {
-    text-align: center;
-    padding-top: 50px;
-    font-family: 'Lucida Grande',sans-serif;
-} */
 
 .message_box {
     padding: 50px;
@@ -46,23 +45,65 @@ main {
         opacity: 1;
     }
 }
-.speace {
-    margin-left: 20px;
-}
 
-h2 {
-    padding-left: 30px;
+.text {
+    padding-top: 30px;
+    font-size: 40px;
     font-family: 'Marker Felt',sans-serif;
     border-bottom: solid 1px silver;
-    margin-left: 30px;
+    text-align: center;
 }
-.flt_sidebar {
+.ptagu {
+    padding-top: 20px;
+    line-height: normal;
+    font-family: 'Lucida Grande',sans-serif;
+}
+.ptagu span {
+    font-family: 'Marker Felt',sans-serif;
+    border-bottom: solid 1px silver;
+}
+section {
+    width: 100%;
+    height: 320px;
     padding:10px;
     background-color: rgb(135, 177, 235);
+    font-size: 40px;
+    font-family: 'Lucida Grande',sans-serif;
 }
-.list-group {
+/* main開始 */
+
+/* flightここから */
+.flight {
+    text-align: center;
+    border-bottom: solid 1px whitesmoke;
+}
+.container {
+    background: #eee;
+  }
+  /* clearfix */
+  .container:before,
+  .container:after {
+      content: "";
+      display: table;
+  }
+  .container:after {
+      clear: both;
+  }
+  
+  .item {
+    float: left;
+    margin-left: 100px; 
     margin-top: 20px;
-}
-.fa-plane {
-    margin-right: 5px;
-}
+  }
+  .item img {
+    width: 200px;
+    height: 200px;
+    vertical-align: bottom;
+  }
+  .first-item {
+    clear: both;
+  }
+  /* remove margin bottom on last row */
+  .last-row, .last-row ~ .item {
+    margin-bottom: 0;
+  }
