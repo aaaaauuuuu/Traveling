@@ -1,0 +1,38 @@
+.select-box {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    width: 40%;
+    height: 280px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Phosphate',sans-serif;
+    margin: 10px;
+}
+.search h1 {
+    font-size: 30px;
+}
+.male {
+    margin-left: 10px;
+    color: blue;
+}
+.female {
+    margin-left: 10px;
+    color: red;
+}
+.deta,
+.age {
+    margin-top: 15px;
+}
+.searchbtn {
+    margin-top: 30px;
+    font-family: 'Phosphate',sans-serif;
+    background: white;
+    color: rgb(168, 161, 161);
+    font-size: 20px;
+    border: 1px silver solid;
+}
